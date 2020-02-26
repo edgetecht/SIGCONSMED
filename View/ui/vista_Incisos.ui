@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Agenda</class>
+ <widget class="QDialog" name="Agenda">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>422</width>
+    <height>283</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>Qt.png</normaloff>Qt.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog {
+	background: white;
+}
+
+#pb_left, #pb_right{
+	width: auto;
+	border: 0px;
+	max-width: 40px;
+	min-width: 40px;
+	max-height: 40px;
+	background-color:none;
+}
+#l_mont{
+	size:20px;
+}
+
+#agenda QPushButton {
+	min-height: auto;
+	color: pink;
+	border:none;
+	text-align:center;
+	font-size:15px;
+	background-color:#00796b;
+	color: #FFFFFF
+}
+#agenda QPushButton:hover{
+	background-color:#4db6ac;
+	color: #000000;
+}</string>
+  </property>
+  <widget class="QPushButton" name="btn_incisoB">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>361</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string>Calcular el costo de una consulta dado su código</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_incisoD">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>130</y>
+     <width>361</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string>Datos del paciente de mayor edad atendido en una consulta</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_incisoC">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>80</y>
+     <width>361</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string>Determinar qué tipo de análisis le mandaron a un paciente dado su CI</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_incisoE">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>180</y>
+     <width>361</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string>Porciento de las consultas de una especialidad dada en una fecha dada</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_incisoF">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>230</y>
+     <width>361</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string>Listado de los datos de las consultas sin análisis realizadas por un doctor</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
